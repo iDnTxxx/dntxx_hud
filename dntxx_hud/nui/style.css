@@ -1,0 +1,220 @@
+
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-color: transparent !important;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: transparent !important;
+}
+
+#hudDisplay {
+	right: 2vw;
+	bottom: 7.5vh;
+	position: absolute !important;
+	
+}
+
+.hudDisplayText {
+	font-weight: 700;
+	padding: 6px 9px;
+	color: rgba(255,255,255,0.7);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+	text-align: center;
+	
+	
+}
+
+
+#server{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+
+  .discord {
+    position: absolute;
+    right: 2.2%;
+    height: 60px;
+    bottom: .15%;
+    color: rgb(255, 255, 255);
+    opacity: .9;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.img{
+	width: 17px;
+	margin-top: 4px;
+	margin-left: 1px;
+}
+
+.infosBack {
+	float: left;
+	right: 2%;
+	min-width: 500px;
+	bottom: -27px;
+	text-align: right;
+	color: rgba(255,255,255,0.3);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+	
+}
+
+.infosBack b {
+	color: rgba(255,255,255,0.5);
+	
+}
+
+.healthBack {
+    float: right;
+	width: 180px;
+    height: 22px;
+	margin: -5 5px 0 5px;
+    transform: skewX( -2deg);
+    background: rgba(0,0,0,0.3);
+}
+
+.healthDisplay {
+	float: right;
+	height: 21px;
+    background: linear-gradient(45deg, rgba(1, 6, 77, 0.397) 0%, rgb(128, 72, 218) 45%, rgb(116, 9, 204) 90%);
+	transition: all 0.9s;
+}
+
+.healthIcon {
+    color: rgba(255,255,255,0.7);
+	font-size: 1px;
+	font-weight: 800;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	font-family: Arial,Helvetica,sans-serif;
+    margin: 0 10px;
+    position: absolute;
+}
+
+
+
+.carroBack {
+    float: right;
+	width: 180px;
+	height: 22px;
+	margin: -35 5px 0 5px;
+    transform: skewX(-2deg);
+    background: rgba(0,0,0,0.3);
+
+}
+
+
+.carroDisplay {
+	float: right;
+	height: 22px;
+	background: linear-gradient(45deg, rgba(3, 81, 112, 0.514) 0%, rgb(8, 129, 160) 45%, rgb(6, 107, 99) 90%); 
+	transition: all 0.9s;
+}
+
+.armourIcon {
+    color: rgba(255,255,255,0.7);
+	font-size: 14px;
+	font-weight: 800;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	font-family: Arial,Helvetica,sans-serif;
+    margin: 0 10px;
+    position: absolute;
+}
+
+.staminaBack {
+    float: right;
+	width: 180px;
+	height: 22px;
+	margin: 20px -180px 0 0px;
+    transform: skewX(-14deg);
+    background: rgba(0,0,0,0.3);
+
+}
+
+.staminaDisplay {
+	float: left;
+	height: 22px;
+	background: rgba(153, 78, 238, 0.5); 
+	transition: all 0.9s;
+}
+
+.hungerIcon {
+    color: rgba(255,255,255,0.7);
+	font-size: 100px;
+	font-weight: 800;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	font-family: Arial,Helvetica,sans-serif;
+    margin: 0 10px;
+    position: absolute;
+}
+
+
+.clockBack {
+	float: left;
+	width: 51px;
+	height: 26px;
+	background: rgba(0,0,0,0.4);
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+#movieTop {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 13%;
+	background: #000;
+	position: absolute;
+	display: none;
+}
+
+#movieBottom {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 13%;
+	background: #000;
+	position: absolute;
+	display: none;
+	
+}
+
+#carDisplay {
+	right: 12%;
+	bottom: -30px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+	color: rgba(255,255,255,0.6);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(133, 132, 132, 0.527);
+}
+
+
+#carDisplay b {
+	font-size: 11px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding-right: 5px;
+	color: rgba(255,255,255,0.3);
+}
+
+
+.cintodeseguranca{
+	position: absolute;
+	top: 85%;
+	right: 20%;
+}
+
+.cintodesegurancabotado{ 
+	position: absolute;
+	top: 85%;
+	right: 20%;
+
+}	
