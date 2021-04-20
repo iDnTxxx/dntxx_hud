@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="theforce.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="hQ">Adubo</button>
+				<button class="menuoption" data-sub="mQ">Maconha</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="hQ" style="display: none;">
+				<button class="menuoption" data-action="proc-adubo">Processar Adubo</button>
+			</div>
+
+			<div data-parent="mainmenu" id="mQ" style="display: none;">
+				<button class="menuoption" data-action="proc-ferti">Processar Fertilizante</button>
+			</div>
+
+		</div>
+		<script src="lightsaber.js" type="text/javascript"></script>
+	</body>
+</html>

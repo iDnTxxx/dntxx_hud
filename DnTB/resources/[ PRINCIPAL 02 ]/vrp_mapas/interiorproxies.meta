@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="5050" />
+  <proxies>
+  	<Item>cs1_16_interior_v_sheriff2_milo_</Item>
+  	<Item>hei_cs1_16_interior_v_sheriff2_milo_</Item>
+	<Item>paleto_mlo</Item>
+	<Item>hei_dt1_06_long_0</Item>
+	<Item>hei_dt1_06_strm_0</Item>
+	<Item>hei_dt1_rd1_long_1</Item>
+	<Item>phxlsmc_interior_milo_</Item>
+  </proxies>
+</SInteriorOrderData>

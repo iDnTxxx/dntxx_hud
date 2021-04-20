@@ -1,0 +1,128 @@
+html {
+
+	overflow-x: hidden !important;
+
+	overflow-y: hidden !important;
+
+	background-color: transparent !important;
+
+}
+
+
+
+body {
+
+  background-color: transparent !important;
+
+  background-color: rgba(255, 0, 0, 0.075);
+
+}
+
+
+
+#notifications {
+
+	top: 4.5%;
+
+	right: 8.5%;
+
+	color: rgba(255,255,255,1);
+
+    max-width: 50px;
+
+	font-size: 0px;
+
+	position: absolute !important;
+
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+
+
+
+#notifications b {
+
+  /* color: rgba(255,255,255,1); */
+
+  font-weight: bolder;
+
+}
+
+
+
+#notifications div {
+
+  background-size: 30px;
+
+  float: right;
+
+  padding: 15px 15px 15px 50px;
+
+  border-radius: 15px;
+
+  margin: 10px;
+
+}
+
+
+
+.sucesso {
+
+  background: url("https://i.imgur.com/Zy9sBdV.png") 10px no-repeat;  
+
+  background-color: linear-gradient(45deg, rgba(1, 4, 34, 0.384) 0%, rgb(127, 28, 136) 45%,rgb(218, 92, 235)) 90%;
+
+}
+
+
+
+.negado {
+
+	background: url("https://i.imgur.com/gl6Xq7v.png") 10px no-repeat;
+
+	background-color: linear-gradient(45deg, rgba(2, 4, 37, 0.397) 0%, rgb(102, 7, 7) 45%,rgb(240, 29, 22)) 90%;
+
+}
+
+
+
+.aviso {
+
+	background: url("https://i.imgur.com/B7mZ8zr.png") 10px no-repeat;
+
+	background-color: linear-gradient(45deg, rgba(2, 4, 37, 0.397) 0%, rgb(104, 20, 121) 45%,rgb(193, 57, 235)) 90%;
+
+}
+
+
+
+.financeiro {
+
+	background: url("https://i.imgur.com/mocYiy5.png") 10px no-repeat;
+
+	background-color: linear-gradient(45deg, rgba(2, 4, 37, 0.397) 0%, rgb(6, 100, 13) 45%,rgb(95, 241, 120)) 90%;
+
+}
+
+
+
+.importante {
+
+	background: url("https://i.imgur.com/cQx3Rrp.png") 10px no-repeat;
+
+	background-color: linear-gradient(45deg, rgba(2, 4, 37, 0.397) 0%, rgb(12, 124, 96) 45%,rgb(76, 241, 228)) 90%;
+
+}
+
+
+
+.vtunning {
+
+	background: url("https://i.imgur.com/iolDUcg.png") 10px no-repeat;
+
+	background-color: linear-gradient(45deg, rgba(2, 4, 37, 0.397) 0%, rgb(163, 179, 22) 45%,rgb(206, 235, 81)) 90%;
+
+}
+
+
+

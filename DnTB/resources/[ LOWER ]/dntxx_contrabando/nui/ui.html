@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="utilidades">Utilidades</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="utilidades" style="display: none;">
+				<button class="menuoption" data-sub="utilidades-comprar">Comprar</button>
+			</div>
+			<div data-parent="utilidades" id="utilidades-comprar" style="display: none;">
+				<button class="menuoption" data-action="utilidades-comprar-placa"><l>Placa</l><r>$20.000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-keycard"><l>Key Card</l><r>$25.000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-c4"><l>C4</l><r>$20.000</r></button>
+				<!-- <button class="menuoption" data-action="utilidades-comprar-algemas"><l>Algemas</l><r>$20.000</r></button> -->
+				<!--<button class="menuoption" data-action="utilidades-comprar-masterpick"><l>masterpick</l><r>$8.000</r></button-->>
+				<button class="menuoption" data-action="utilidades-comprar-lockpick"><l>Lockpick</l><r>$8.000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-pendrive"><l>Pendrive</l><r>$20.000</r></button>
+				<<button class="menuoption" data-action="utilidades-comprar-masterpick"><l>Masterpick</l><r>$8.000</r></button>>
+			</div>
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>
